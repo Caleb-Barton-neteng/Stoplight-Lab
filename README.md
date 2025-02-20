@@ -1,6 +1,6 @@
 # Stoplight Control Web App
 
-This project is a **Flask web application** that controls a set of **LEDs on a breadboard** to simulate a traffic stoplight. It provides a simple interface to control the stoplight (red, yellow, green LEDs) through a web page. The LEDs are connected to a Raspberry Pi 5, and you can control the stoplight via HTTP requests.
+This project is a **Flask web application** that controls a set of **LEDs on a breadboard** to simulate a traffic stoplight. It provides a simple interface to control the stoplight (red, yellow, green LEDs) through a web page. The LEDs are connected to a Raspberry Pi 5, and you can control the stoplight via the buttons on the homepage.
 
 ---
 
