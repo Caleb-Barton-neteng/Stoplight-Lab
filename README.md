@@ -33,3 +33,12 @@ This project is a **Flask web application** that controls a set of **LEDs on a b
 ```bash
 apt install python-gpiozero
 apt install python-flask
+```
+
+## Running the Program
+1. Clone the repo to a folder
+2. In the same folder as the app.py folder, run the following command:
+
+```bash
+python app.py
+```
