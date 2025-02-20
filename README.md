@@ -15,7 +15,7 @@ This project is a **Flask web application** that controls a set of **LEDs on a b
 - **GPIO Pins 17,18, and 27** on the Raspberry Pi
 
 ## GPIO Diagram
-![GPIO Diagram](images/Rasberry-Pi-5-Pinout-.jpg)
+![GPIO Diagram](images/Raspberry-Pi-5-Pinout-.jpg)
 
 ---
 
