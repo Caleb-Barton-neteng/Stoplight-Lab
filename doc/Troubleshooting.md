@@ -10,7 +10,7 @@ This guide provides troubleshooting tips for issues you might encounter while se
 - **LED Not Lighting Up**:
   - **Check Connections**: Ensure each LED's long leg (anode) is connected to the correct GPIO pin, and the short leg (cathode) is connected to a ground (GND) pin.
   - **Verify Resistor Placement**: Ensure you have placed a current-limiting resistor (e.g., 220Ω) in series with each LED to avoid damaging the components.
-  - **Wrong GPIO Pin**: Ensure the GPIO pins you are using in the code match the pins to which the LEDs are physically connected. The default pins in this setup are GPIO 17, GPIO 27, and GPIO 22.
+  - **Wrong GPIO Pin**: Ensure the GPIO pins you are using in the code match the pins to which the LEDs are physically connected. The default pins in this setup are GPIO 17, GPIO 18, and GPIO 27. If looking at the physical pin, the numbers are from the top (SD Card) side of the PI from left to right 1 odd numbers on the left, even on the right. In this case the pin numbers are 11, 12 and 13 as shown in the README.md. 
 
 ---
 
