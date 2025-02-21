@@ -6,16 +6,22 @@ This project is a **Flask web application** that controls a set of **LEDs on a b
 
 ## Hardware Requirements
 
-- **Raspberry Pi 5**
+- **Raspberry Pi 5 or 4**
 - **3 LEDs** (Red, Yellow, Green)
 - **3 75 Ω Resistors**
 - **1 Breadboard**
 - **3 Male to Male Jumper Wires**
 - **4 Male to Female Jumper Wires**
-- **GPIO Pins 17,18, and 27** on the Raspberry Pi
+- **GPIO Pins 17(Pin11),18(Pin12), and 27(Pin13)** on the Raspberry Pi
+- **Connect to any Ground pin of the PI**
 
 ## GPIO Diagram
 ![GPIO Diagram](images/Raspberry-Pi-5-Pinout-.jpg)
+
+---
+
+## Wiring Diagram
+![Wiring Diagram](images/wiring_diagram.jpg)
 
 ---
 
@@ -34,6 +40,7 @@ This project is a **Flask web application** that controls a set of **LEDs on a b
 apt install python-gpiozero
 apt install python-flask
 ```
+---
 
 ## Running the Program
 1. Clone the repo to a folder
@@ -42,3 +49,8 @@ apt install python-flask
 ```bash
 python app.py
 ```
+---
+
+## Full Stepup
+![Wiring Diagram](images/full_setup.jpg)
+
